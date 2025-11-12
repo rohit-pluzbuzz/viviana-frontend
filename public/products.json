@@ -1,0 +1,242 @@
+{
+  "101": {
+    "name": "AMRAPALI-GLASS",
+    "price": "VL-116-H1",
+    "url": [
+      "assets/images/AMRAPALI-GLASS.webp",
+      "assets/images/AMRAPALI-GLASS.webp",
+      "assets/images/AMRAPALI-GLASS.webp",
+      "assets/images/AMRAPALI-GLASS.webp"
+    ],
+    "description": " 7.5×7.5×10.0",
+    "catlog": "copper",
+    "img": "assets/images/AMRAPALI-GLASS.webp"
+  },
+  "102": {
+    "name": "ARABIAN-BOWL",
+    "price": "VL-143-H1",
+    "url": [
+      "assets/images/ARABIAN-BOWL.webp",
+      "assets/images/AMRAPALI-GLASS.webp",
+      "assets/images/AMRAPALI-GLASS.webp",
+      "assets/images/AMRAPALI-GLASS.webp"
+    ],
+    "description": "11.0×11.0×5.5",
+    "catlog": "brass",
+    "img": "assets/images/AMRAPALI-GLASS.webp"
+  },
+
+  "103": {
+    "name": "CHAFING-DISH-LADLE",
+    "price": "$1000",
+    "url": "assets/images/CHAFING-DISH-LADLE.webp",
+    "description": "This is a description of Product 3.",
+    "catlog": "bronze",
+    "img": "assets/images/CHAFING-DISH-LADLE.webp"
+  },
+  "104": {
+    "name": "copper-biryani-karahi",
+    "price": "$1500",
+    "url": "assets/images/copper-biryani-karahi.webp",
+    "description": "This is a description of Product 4.",
+    "catlog": "barware",
+    "img":"assets/images/copper-biryani-karahi.webp"
+
+  },
+  "105": {
+    "name": "copper-bread-basket",
+    "price": "$300",
+    "url": "assets/images/copper-bread-basket-oval-perforated.webp",
+
+    "description": "This is a description of Product 5.",
+    "catlog": "homewar",
+    "img":"assets/images/copper-bread-basket-oval-perforated.webp"
+
+  },
+  "106": {
+    "name": "copper-bread-basket",
+    "price": "$300",
+    "url": "assets/images/copper-bread-basket-oval.webp",
+
+    "description": "This is a description of Product 6.",
+    "catlog": "copper",
+    "img": "assets/images/copper-bread-basket-oval.webp"
+  },
+  "107": {
+    "name": "copper-buffet",
+    "price": "$400",
+    "url": "assets/images/copper-buffet-set-roll-top.webp",
+
+    "description": "This is a description of Product 7.",
+    "catlog": "bronze",
+    "img": "assets/images/copper-buffet-set-roll-top.webp"
+  },
+  "108": {
+    "name": "copper-buffet",
+    "price": "$1000",
+    "url": "assets/images/copper-buffet-set-round-stand.webp",
+
+    "description": "This is a description of Product 8.",
+    "catlog": "brass",
+    "img": "assets/images/copper-buffet-set-round-stand.webp"
+  },
+  "109": {
+    "name": "copper-buffet",
+    "price": "$1500",
+    "url": "assets/images/copper-buffet-set-square-stand.webp",
+
+    "description": "This is a description of Product 9.",
+    "catlog": "copper",
+    "img": "assets/images/copper-buffet-set-round-stand.webp"
+  },
+  "110": {
+    "name": "copper-burner-stand",
+    "price": "$300",
+    "url": "assets/images/copper-burner-stand.webp",
+
+    "description": "This is a description of Product 10.",
+    "catlog": "bronze",
+    "img": "assets/images/copper-burner-stand.webp"
+  },
+  "111": {
+    "name": "copper-chipndip",
+    "price": "$300",
+    "url": "assets/images/copper-chipndip-flat.webp",
+
+    "description": "This is a description of Product 10.",
+    "catlog": "copper",
+    "img": "assets/images/copper-chipndip-flat.webp"
+  },
+  "112": {
+    "name": "copper-chipndip",
+    "price": "$300",
+    "url": "assets/images/copper-chipndip-oval.webp",
+
+    "description": "This is a description of Product 10.",
+    "catlog": "brass",
+    "img": "assets/images/copper-chipndip-oval.webp"
+  },
+  "113": {
+    "name": "copper-chipndip",
+    "price": "$300",
+    "url": "assets/images/copper-chipndip-round.webp",
+
+    "description": "This is a description of Product 10.",
+    "catlog": "copper",
+    "img": "assets/copper-chipndip-round.webp"
+  },
+  "114": {
+    "name": "AMRAPALI-GLASS",
+    "price": "VL-116-H1",
+    "url": "assets/images/AMRAPALI-GLASS.webp",
+    "description": " 7.5×7.5×10.0",
+    "catlog": "copper",
+    "img": "assets/images/AMRAPALI-GLASS.webp"
+  },
+  "115": {
+    "name": "ARABIAN-BOWL",
+    "price": "VL-143-H1",
+    "url": "assets/images/ARABIAN-BOWL.webp",
+    "description": "11.0×11.0×5.5",
+    "catlog": "brass",
+    "img": "assets/images/ARABIAN-BOWL.webp"
+  },
+  "116": {
+    "name": "CHAFING-DISH-LADLE",
+    "price": "$1000",
+    "url": "assets/images/CHAFING-DISH-LADLE.webp",
+    "description": "This is a description of Product 3.",
+    "catlog": "copper",
+    "img": "assets/images/CHAFING-DISH-LADLE.webp"
+  },
+  "117": {
+    "name": "copper-biryani-karahi",
+    "price": "$1500",
+    "url": "assets/images/copper-biryani-karahi.webp",
+    "description": "This is a description of Product 4.",
+    "catlog": "bronze",
+    "img": "assets/images/copper-biryani-karahi.webp"
+  },
+  "118": {
+    "name": "copper-bread-basket",
+    "price": "$300",
+    "url": "assets/images/copper-bread-basket-oval-perforated.webp",
+
+    "description": "This is a description of Product 5.",
+    "catlog": "brass",
+    "img": "assets/images/AMRAPALI-GLASS.webp"
+  },
+  "119": {
+    "name": "copper-bread-basket",
+    "price": "$300",
+    "url": "assets/images/copper-bread-basket-oval.webp",
+
+    "description": "This is a description of Product 6.",
+    "catlog": "copper",
+    "img": "assets/images/AMRAPALI-GLASS.webp"
+  },
+  "120": {
+    "name": "copper-buffet",
+    "price": "$400",
+    "url": "assets/images/copper-buffet-set-roll-top.webp",
+
+    "description": "This is a description of Product 7.",
+    "catlog": "bronze",
+    "img": "assets/images/AMRAPALI-GLASS.webp"
+  },
+  "121": {
+    "name": "copper-buffet",
+    "price": "$1000",
+    "url": "assets/images/copper-buffet-set-round-stand.webp",
+
+    "description": "This is a description of Product 8.",
+    "catlog": "copper",
+    "img": "assets/images/AMRAPALI-GLASS.webp"
+  },
+  "122": {
+    "name": "copper-buffet",
+    "price": "$1500",
+    "url": "assets/images/copper-buffet-set-square-stand.webp",
+
+    "description": "This is a description of Product 9.",
+    "catlog": "brass",
+    "img": "assets/images/copper-buffet-set-square-stand.webp"
+  },
+  "123": {
+    "name": "copper-burner-stand",
+    "price": "$300",
+    "url": "assets/images/copper-burner-stand.webp",
+
+    "description": "This is a description of Product 10.",
+    "catlog": "copper",
+    "img": "assets/images/copper-burner-stand.webp"
+  },
+  "124": {
+    "name": "copper-chipndip",
+    "price": "$300",
+    "url": "assets/images/copper-chipndip-flat.webp",
+
+    "description": "This is a description of Product 10.",
+    "catlog": "bronze",
+    "img": "assets/images/copper-chipndip-flat.webp"
+  },
+  "125": {
+    "name": "copper-chipndip",
+    "price": "$300",
+    "url": "assets/images/copper-chipndip-oval.webp",
+
+    "description": "This is a description of Product 10.",
+    "catlog": "copper",
+    "img": "assets/images/copper-chipndip-oval.webp"
+  },
+  "126": {
+    "name": "copper-chipndip",
+    "price": "$300",
+    "url": "assets/images/copper-chipndip-round.webp",
+
+    "description": "This is a description of Product 10.",
+    "catlog": "barware",
+    "img": "assets/images/copper-chipndip-round.webp"
+
+  }
+}

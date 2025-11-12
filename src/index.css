@@ -1,0 +1,132 @@
+@import "tailwindcss";
+
+#pagination button {
+    background: linear-gradient(145deg, #ffc977, #eb9540);
+    color: #5B0058;
+    border: none;
+    padding: 0.75rem 1.25rem;
+    font-size: 1rem;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    position: relative;
+    overflow: hidden;
+    
+    &::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: -100%;
+        width: 100%;
+        height: 100%;
+        background: linear-gradient(
+            120deg,
+            transparent,
+            rgba(255, 255, 255, 0.2),
+            transparent
+        );
+        transition: 0.5s;
+    }
+
+    &:hover::before {
+        left: 100%;
+    }
+
+    &:hover:not(:disabled) {
+        background: linear-gradient(145deg, #d4993f, #4e3013);
+        transform: translateY(-2px);
+        box-shadow: 0 5px 15px rgba(102, 22, 22, 0.3);
+    }
+
+    &:disabled {
+        background: linear-gradient(145deg, #d1d1d1, #e48100);
+        cursor: not-allowed;
+        transform: none;
+        box-shadow: none;
+    }
+
+    &.active {
+        background: linear-gradient(145deg, #fcba57, #6e4925);
+        font-weight: 600;
+        box-shadow: 0 4px 12px rgba(158, 34, 34, 0.3);
+    }
+}
+
+
+:root {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+p,a,button,li{
+    font-family: "Sorts Mill Goudy", serif;
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: 'Roxborough';
+    src: url('assets/fonts/Roxborough_CF.ttf') format('truetype');
+}
+.font-roxborough {
+    font-family: 'Roxborough', serif;
+}
+.button-1 {
+    background-color: #660066; 
+    color: #FFA500; 
+    font-size: 18px;
+    font-weight: bold;
+    padding: 8px 20px;
+    border: none;
+    cursor: pointer;
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    border-radius: 30px;
+    clip-path: polygon(10% 0, 90% 0, 100% 50%, 90% 100%, 10% 100%, 0 50%);
+}
+.button-1:hover {
+    background-color: #f9a91f;
+    color: #5b0058;
+}
+/* Swiper Navigation Arrows */
+.button-prev, .button-next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: #5b0058;
+    font-size: 24px;
+    width: 40px;
+    height: 40px;
+    color: rgb(223, 223, 223);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.2);
+    z-index: 10;
+    cursor: pointer;
+}
+.button-prev { left: 0px; }
+.button-next { right: 0px; }
+.button-prev i, .button-next i {
+    font-size: 18px;
+}
+.font-Montserrat {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+}
+
+
