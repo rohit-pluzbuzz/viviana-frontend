@@ -8,6 +8,7 @@ import { useProducts } from '../ProductContext';
 import ProductModal from '../components/ProductModel';
 
 const Bestsellers = () => {
+  const API_BASE = (import.meta.env.VITE_API_URL && import.meta.env.VITE_API_URL.trim()) || "";
   const { products, loading } = useProducts();
   const [selectedProduct, setSelectedProduct] = useState(null);
 
@@ -60,7 +61,7 @@ const Bestsellers = () => {
               <img
                 src={
                   product.images?.length > 0
-                    ? `http://localhost:5000${product.images[0]}`
+                    ? `${API_BASE}${product.images[0]}`
                     : 'https://via.placeholder.com/300x300?text=No+Image'
                 }
                 className="w-full h-96 object-cover rounded-lg"
