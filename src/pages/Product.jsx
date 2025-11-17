@@ -7,6 +7,7 @@ import { useParams } from 'react-router-dom';
 const PRODUCTS_PER_PAGE = 9;
 
 function Product() {
+  const API_BASE = (import.meta.env.VITE_API_URL && import.meta.env.VITE_API_URL.trim()) || "";
   const { products, loading } = useProducts();
   const [selectedProduct, setSelectedProduct] = useState(null);
   const [searchTerm, setSearchTerm] = useState('');
@@ -84,7 +85,7 @@ function Product() {
               <img
                 src={
                   product.images?.length > 0
-                    ? `http://localhost:5000${product.images[0]}`
+                    ? `${API_BASE}${product.images[0]}`
                     : 'https://via.placeholder.com/300x300?text=No+Image'
                 }
                 alt={product.name}
