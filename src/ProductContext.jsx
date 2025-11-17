@@ -10,9 +10,10 @@ export function ProductProvider({ children }) {
   const [loading, setLoading] = useState(true)
 
   useEffect(() => {
+    const API_BASE = (import.meta.env.VITE_API_URL && import.meta.env.VITE_API_URL.trim()) || "http://localhost:5000";
   const loadProducts = async () => {
     try {
-      const res = await fetch('http://localhost:5000/api/products');
+      const res = await fetch(`${API_BASE}/api/products`);
       const data = await res.json();
 
       setProducts(data); // assuming backend returns an array
