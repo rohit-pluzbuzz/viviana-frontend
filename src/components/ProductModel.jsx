@@ -5,6 +5,7 @@ import { faChevronLeft, faChevronRight } from '@fortawesome/free-solid-svg-icons
 import { faFacebook, faXTwitter, faPinterest, faWhatsapp, faTelegram } from '@fortawesome/free-brands-svg-icons';
 
 export default function ProductModal({ product, onClose }) {
+  const API_BASE = (import.meta.env.VITE_API_URL && import.meta.env.VITE_API_URL.trim()) || "http://localhost:5000";
   const [activeImageIndex, setActiveImageIndex] = useState(0);
 
   useEffect(() => {
@@ -14,7 +15,7 @@ export default function ProductModal({ product, onClose }) {
   if (!product) return null;
 
   const images = Array.isArray(product.images)
-    ? product.images.map(img => `http://localhost:5000${img}`)
+    ? product.images.map(img => `${API_BASE}${img}`)
     : [];
 
   return (
