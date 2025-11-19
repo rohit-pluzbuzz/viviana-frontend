@@ -14,9 +14,14 @@ export default function ProductModal({ product, onClose }) {
 
   if (!product) return null;
 
-  const images = Array.isArray(product.images)
-    ? product.images.map(img => `${API_BASE}${img}`)
-    : [];
+const images = Array.isArray(product.images)
+  ? product.images.map(img =>
+      img.startsWith("http")
+        ? img
+        : `${API_BASE}${img}`
+    )
+  : [];
+
 
   return (
     <div className="fixed inset-0 bg-black/20 flex justify-center items-center z-50">
