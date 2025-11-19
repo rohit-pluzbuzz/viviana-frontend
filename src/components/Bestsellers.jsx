@@ -60,10 +60,15 @@ const Bestsellers = () => {
             >
               <img
                 src={
-                  product.images?.length > 0
-                    ? `${API_BASE}${product.images[0]}`
-                    : 'https://via.placeholder.com/300x300?text=No+Image'
-                }
+  product.images?.length > 0
+    ? (
+        product.images[0].startsWith("http")
+          ? product.images[0]
+          : `${API_BASE}${product.images[0]}`
+      )
+    : "https://via.placeholder.com/300x300?text=No+Image"
+}
+
                 className="w-full h-96 object-cover rounded-lg"
                 alt={product.name}
               />
